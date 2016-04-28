@@ -1,0 +1,314 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>aplicacion 5</title>
+
+<!-- grupo CSS -->
+<link rel="stylesheet" href="css/temasapp1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="slider/engine1/style.css" />
+	<script type="text/javascript" src="slider/engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine3/style.css" media="screen" />
+	<script type="text/javascript" src="engine3/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine4/style.css" media="screen" />
+	<script type="text/javascript" src="engine4/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/b1.jpg','imagenes/b2.jpg','imagenes/b3.jpg','imagenes/b4.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>Día mundial de la tierra</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+    <!-- Start WOWSlider.com BODY section id=wowslider-container3 -->
+	<div id="wowslider-container3">
+	<div class="ws_images"><ul>
+<li><img src="data3/images/1.jpg" alt="1" title="1" id="wows3_0"/></li>
+<li><img src="data3/images/2.jpg" alt="2" title="2" id="wows3_1"/></li>
+<li><img src="data3/images/3.jpg" alt="3" title="3" id="wows3_2"/></li>
+<li><img src="data3/images/4.jpg" alt="4" title="4" id="wows3_3"/></li>
+<li><img src="data3/images/5.jpg" alt="5" title="5" id="wows3_4"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="1"><img src="data3/tooltips/1.jpg" alt="1"/>1</a>
+<a href="#" title="2"><img src="data3/tooltips/2.jpg" alt="2"/>2</a>
+<a href="#" title="3"><img src="data3/tooltips/3.jpg" alt="3"/>3</a>
+<a href="#" title="4"><img src="data3/tooltips/4.jpg" alt="4"/>4</a>
+<a href="#" title="5"><img src="data3/tooltips/5.jpg" alt="5"/>5</a>
+</div></div>
+<span class="wsl"><a href="http://wowslider.com">Carousel App</a> by WOWSlider.com v4.8</span>
+	<a href="#" class="ws_frame"></a>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine3/wowslider.js"></script>
+	<script type="text/javascript" src="engine3/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    	<div data-role="collapsible" data-content-theme="false">
+<h1>Fecha de celebración</h1>
+           <div>
+           <p>En este día, representantes de más de 170 países se reúnen en la Sede de las Naciones Unidas en Nueva York para firmar el Acuerdo de París sobre el Cambio Climático. Este pacto histórico, junto con la Agenda 2030 para el Desarrollo Sostenible, tiene la capacidad de transformar nuestro mundo.</p>
+           <br>
+           </div>
+        <div>
+          <center><img src="imagenes/fecha.jpg" width="50%" height="50%"></center></div>
+        </div>
+        </div>
+        
+<div>
+	<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    	<h2>Por qué se celebra este día</h2>
+    	</a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Historia de cómo se creó</h2>
+        </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Efectos de la contaminación</h2>
+        </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Medidas contra la contaminación</h2>
+        </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Reflexion</h2>
+        </a>
+    </li>
+    </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+	<div>
+    	<img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+       <h4>Aplicacion 5</h4>
+       <h4>Daniel Alberto Calderón Pérez</h4>
+    </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Por qué se celebra este día</h1>
+    </div>
+   <div data-role="content">
+   <div>
+   	<p>
+    El Día de la Tierra es un día celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.
+    </p>
+    <center><img src="imagenes/porque.jpg" width="83%" height="50%"></center>
+   </div>
+   </div>
+   <div data-role="footer" data-theme="a" data-position="fixed">
+   	<h4>Aplicacion 5, DACP</h4>
+    </div>
+   </div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>Historia de cómo se creó</h1>
+    </div>
+    <div data-role="content">
+    	<div>
+        	<p>
+            En 1968, Morton Hilbert y el U.S. Public Health Service (Servicio de Salud Pública de E.E.U.U.), organizaron el Simposio de Ecología Humana, se realiza una conferencia por los nombrados anteriormente para una asamblea o conferencia medioambiental para que estudiantes escucharan a científicos hablar sobre los efectos del deterioro ambiental en la salud humana. Este fue el primer antecedente del Día de la Tierra. Durante los siguientes dos años, Hilbert y sus estudiantes trabajaron para planear el primer Día de la Tierra. Surgieron otros esfuerzos como Survival Project (Proyecto para la Supervivencia), uno de los primeros eventos educacionales de conciencia ambiental, que fue llevado a cabo en la Universidad Northwestern el 23 de enero de 1970. Este fue el primero de varios eventos realizados en campus universitarios por todo Estados Unidos. Así mismo, Ralph Nader empezó a hablar acerca de la importancia de la ecología en 1970.<br>
+
+La primera manifestación tuvo lugar el 22 de abril de 1970, promovida por el senador y activista ambiental Gaylord Nelson, para la creación de una agencia ambiental. En esta convocatoria participaron dos mil universidades, diez mil escuelas (primarias y secundarias) y centenares de comunidades. La presión social tuvo sus logros y el gobierno de los Estados Unidos creó la Environmental Protection Agency (Agencia de Protección Ambiental) y una serie de leyes destinadas a la protección del medio ambiente.<br>
+
+En 1972 se celebró la primera conferencia internacional sobre el medio ambiente. La Cumbre de la Tierra de Estocolmo, cuyo objetivo fue sensibilizar a los líderes mundiales sobre la magnitud de los problemas ambientales.
+            </p>
+            </div>
+        <center><img src="imagenes/historia.png" width="65%" height="50%"></center>
+        </div>
+    <div data-role="footer" data-theme="a" data-position="fixed">
+    	<h4>Aplicacion 5, DACP</h4>
+    </div>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    	<h1>Efectos de la contaminación</h1>
+    </div>
+    <div data-role="content" align="center">
+    	<div>
+        	<p>
+            a contaminación ha provocado daños en el ecosistema, en la vida del hombre, de los animales y plantas. La acción del hombre, el progreso y la intención de mejorar las condiciones de vida son las causas principales de la contaminación ambiental que está sufriendo el planeta. A su vez, los efectos de esta acción la padece el mismo hombre.
+
+Los contaminantes pueden producir efectos nocivos e irreversibles para la salud a determinados niveles de concentración. Los efectos dependen de la dosis y de la frecuencia de exposición a ese contaminante.
+			</p>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/b1.jpg',1)"><img src="imagenes/a1.jpg" width="384" height="228" id="Image17"></a>
+			<p>
+  
+  Efectos de la contaminación en el ser humano:
+  
+  Según algunos expertos, muchos de los efectos de la contaminación se relacionan, de forma directa, con el nivel social y económico en que se encuentren las comunidades afectadas.
+  La pobreza, la falta de acceso a agua potable y de vivienda junto a la combustión de leña y carbón influye de manera significativa sobre la salud de las comunidades más vulnerables que habitan el planeta.
+  La parte de la población más afectada por la contaminación ambiental son: los ancianos, los niños, las embarazadas y los enfermos con problemas respiratorios.
+			</p>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/b2.jpg',1)"><img src="imagenes/a2.jpg" width="75%" height="50%" id="Image18"></a>
+			<p>
+  
+  Efectos de la contaminación en los animales:
+  
+  La fauna que vive en la tierra es la que más ha sufrido la contaminación. A causa de acciones contaminantes, intencionadas o no, muchas especies están en peligro de extinción.
+  Por ejemplo, la contaminación acústica en el mar y los océanos ha afectado en la salud y en el comportamiento de numerosas especies submarinas, como delfines, ballenas, algunos invertebrados y otros animales marinos.
+  La contaminación química también daña a los habitantes del mar. Muchos investigadores encontraron restos de metales y de sustancias muy contaminantes como el mercurio, el cadmio, el cobre y el plomo en especies acuáticas.
+  La contaminación lumínica cambia el comportamiento de muchos animales. Algunos expertos y  ecólogos observaron que los murciélagos han logrado adaptarse a la vida en la ciudad porque, su alimento principal, las polillas se han trasladado, atraídas por la luz de las farolas.  Por el contrario, otros animales, necesitados de oscuridad, al intentar alejarse de la luz terminaron en el mar, donde es difícil conseguir alimentos.
+		  </p>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','imagenes/b3.jpg',1)"><img src="imagenes/a3.jpg" width="257" height="44%" id="Image19"></a>
+		  <p>
+  Efectos de la contaminación en las plantas:
+  
+  La polución afecta  al crecimiento de las plantas y provoca la desaparición de muchas especies. La escasez de lluvias y la contaminación de agua, aire y suelo han traído como consecuencia la desertificación. Esta situación perjudica de manera seria a agricultores porque sus plantas y sus cosechas no podrán crecer no recolectarse.
+			</p>
+            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/b4.jpg',1)"><img src="imagenes/a4.jpg" width="75%" height="50%" id="Image21"></a> 
+            </div>
+        </div>
+    <div data-role="footer" data-theme="b" data-position="fixed">
+    	<h4>Aplicacion 5, DACP</h4>
+    </div>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="c">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    	<h1>Medidas contra la contaminación</h1>
+    </div>
+    <div data-role="content" align="center">
+    	<div>
+        	<p>
+            Muchas de las acciones que realizamos a diario tendrán consecuencias en el planeta.<br>
+
+Por ejemplo,  el consumo desmesurado de energía y agua, y la compra de productos contaminantes afectan ahora y en un futuro al medioambiente y a los seres vivos que habitan la tierra.<br>
+Es claro el papel que tienen que cumplir el Estado y las instituciones, pero la colaboración y la concienciación ciudadana es fundamental para solucionar el problema ambiental.<br>
+
+Los tres pasos fundamentales para encontrar soluciones a la contaminación son:<br>
+
+Conocer las causas.<br>
+Informar de los problemas que nos afecten.<br>
+Contribuir en la búsqueda de soluciones.
+            </p>
+            <div data-role="collapsible" data-content-theme="false">
+<h1>¿cómo podemos colaborar?</h1>
+           <div>
+           <p>
+           -Utilización de catalizadores en los coches para disminuir los gases contaminantes que despiden.
+Empleo del transporte público y medios ecológicos para contaminar menos.<br>
+-Recuperación de aguas: se pueden recuperar de forma química a través de tratamientos biológicos, con organismos que descomponen la materia orgánica en nitrato y en dióxido de carbono.<br>
+-Eliminación de acumulación de nutrientes en lagos pequeños: estos nutrientes provienen de restos de plantas muertas que podrían provocar eutrofización del agua.<br>
+-No abusar de fertilizantes y pesticidas en cultivos y cosechas: para poder eliminar el nitrato del suelo se utilizan métodos biológicos como el cultivo de bacterias desnitrificantes.<br>
+-Reciclar es una actividad en la que todos podemos colaborar: separar  los materiales de forma correcta y procurar que su recogida selectiva se realice en el punto de origen para no contaminar al transportarse.
+           </p>
+           <p>-para más ideas de cómo ayudar a nuestro planeta hacer click <a href="https://www.inspiraction.org/cambio-climatico/contaminacion/soluciones-a-la-contaminacion">aqui</a></p>
+           </div>
+		   <div>
+        <!-- Start WOWSlider.com BODY section id=wowslider-container4 -->
+	<div id="wowslider-container4">
+	<div class="ws_images"><ul>
+<li><img src="data4/images/r1.jpg" alt="r1" title="r1" id="wows4_0"/></li>
+<li><img src="data4/images/r2.jpg" alt="r2" title="r2" id="wows4_1"/></li>
+<li><img src="data4/images/r3.jpg" alt="r3" title="r3" id="wows4_2"/></li>
+<li><img src="data4/images/r4.jpg" alt="r4" title="r4" id="wows4_3"/></li>
+<li><img src="data4/images/r5.jpg" alt="r5" title="r5" id="wows4_4"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="r1"><img src="data4/tooltips/r1.jpg" alt="r1"/>1</a>
+<a href="#" title="r2"><img src="data4/tooltips/r2.jpg" alt="r2"/>2</a>
+<a href="#" title="r3"><img src="data4/tooltips/r3.jpg" alt="r3"/>3</a>
+<a href="#" title="r4"><img src="data4/tooltips/r4.jpg" alt="r4"/>4</a>
+<a href="#" title="r5"><img src="data4/tooltips/r5.jpg" alt="r5"/>5</a>
+</div></div>
+<span class="wsl"><a href="http://wowslider.com">Carousel App</a> by WOWSlider.com v4.8</span>
+	<a href="#" class="ws_frame"></a>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine4/wowslider.js"></script>
+	<script type="text/javascript" src="engine4/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+        </div>
+        </div>
+        
+            </div>
+        </div>
+    <div data-role="footer" data-theme="c" data-position="fixed">
+    	<h4>Aplicacion 5, DACP</h4>
+    </div>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>Reflexion</h1>
+    </div>
+    <div data-role="content" align="center">
+    	<div>
+        	<p>
+            Este día fue creado principalmente para consientizar a la gente de que debemos cuidar nuestro planeta, no debemos dejar que muera, cabe recordar que nosotros vivimos en él y que simplemente si el muere, nosotros con este, no hay que tirar basura en las calles, no dejemos que este planeta se deteriore, debemos de resguardarlo.
+            </p>
+            <img src="imagenes/20160426_192907.jpg" width="80%" height="50%">
+            <img src="imagenes/20160426_193136.jpg" width="80%" height="50%">
+            <p>
+            no dejemos que esto siga pasando, no tiremos basura en la calle.
+            </p>
+            </div>
+        </div>
+    <div data-role="footer" data-theme="a" data-position="fixed">
+    	<h4>Aplicacion 5, DACP</h4>
+    </div>
+    </div>
+</div>
+
+</body>
+</html>
